@@ -27,10 +27,10 @@ title "Comparing the Robustness of Classical and Deep Learning Techniques for Te
 To download the datasets (AG News, DbPedia, Yelp Review Polarity), please follow the link https://github.com/ArdalanM/nlp-benchmarks to the according datasets. 
 You should ask for access and click on the "Request access" button. 
 After downloading the datasets, create a folder called "datasets", including all datasets. The folder structure should look like that: 
- ├── datasets         
-    │   ├── ag_news                 
-    │   ├── db_pedia                 
-    │   ├── yelp_review_polarity       
+    ├── datasets                            #   
+    │   ├── ag_news                         #
+    │   ├── db_pedia                        #
+    │   ├── yelp_review_polarity            #
     │   │   ├── raw                         # for every dataset
     │   |   |   ├── prepare_data_new.ipynb  # for every dataset, creates 80-20 train-test splitting with five folds and two repeats. 
 
